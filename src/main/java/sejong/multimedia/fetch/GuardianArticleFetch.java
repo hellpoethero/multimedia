@@ -44,7 +44,7 @@ public class GuardianArticleFetch {
         try {
           GuardianArticle article = getByLink(link.attr("href"));
           if (article != null) {
-            IndexResponse response = client.prepareIndex("articles", "article", String.valueOf(link.attr("href").hashCode()))
+            IndexResponse response = client.prepareIndex("newspaper", "articles", String.valueOf(link.attr("href").hashCode()))
                 .setSource(ElasticSearchArticleObject.getObject(article))
                 .get();
           }
