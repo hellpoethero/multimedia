@@ -12,6 +12,7 @@ import com.restfb.types.Post;
 import sejong.multimedia.elastic.ElasticSearchConnection;
 import sejong.multimedia.elastic.ElasticSearchFacebookPostObject;
 
+//246
 public class FacebookPageFetch {
   static FacebookClient facebookClient = FacebookConnection.getInstance().getClient();
   static Client client;

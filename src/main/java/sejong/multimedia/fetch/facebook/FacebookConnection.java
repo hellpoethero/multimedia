@@ -26,7 +26,7 @@ public class FacebookConnection {
   }
   
   private FacebookConnection() throws IOException {
-    File accessTokenFile = new File("G:\\Hoc tap\\Sejong\\Multimedia\\multimedia/access_token.txt");
+    File accessTokenFile = new File("access_token.txt");
     FileReader fr = new FileReader(accessTokenFile);
     BufferedReader br = new BufferedReader(fr);
 

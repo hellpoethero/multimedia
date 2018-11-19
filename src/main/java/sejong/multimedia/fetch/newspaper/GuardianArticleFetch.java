@@ -1,4 +1,4 @@
-package sejong.multimedia.fetch;
+package sejong.multimedia.fetch.newspaper;
 
 import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 import java.io.IOException;
